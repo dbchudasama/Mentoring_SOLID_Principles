@@ -16,7 +16,7 @@ However, this time we require the greet function to take an argument of the user
   
  Modify your previous solution to satisfy the above conditions. 
 
-You can clone the repo locally, copy your previous solution into this branch, modify and push your changes to it as you progress. Please first create a new folder named with your name i.e. Vaishali or Maryam and then put all your code files in there so we know who has coded what :).
+You can clone the repo locally, modify and push your changes to it as you progress. Please first create a new folder named with your name i.e. Vaishali or Maryam and then put all your code files in there so we know who has coded what :).
 
 
 HINT: Consider using Interfaces.
