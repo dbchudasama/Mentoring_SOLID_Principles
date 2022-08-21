@@ -1,4 +1,4 @@
-package Task1;
+package Task2;
 public class Greet extends Person {
 
 	public Greet(String n, String sn, String e) {
@@ -6,7 +6,8 @@ public class Greet extends Person {
 		
 	}
 
-	public static void greet() {
+	public static void greet(String email) {
 		System.out.println("Hello "+ name + " " + surname);
+		System.out.println("Your email is " + email);
 	}
 }

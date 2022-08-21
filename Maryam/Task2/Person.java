@@ -1,4 +1,4 @@
-package Task1;
+package Task2;
 public class Person {
 	static String name;
 	static String surname;
@@ -8,6 +8,10 @@ public class Person {
 		name=n;
 		surname=sn;
 		email=e;
+	}
+
+	public String getEmail() {
+		return email;
 	}
 	
 	
