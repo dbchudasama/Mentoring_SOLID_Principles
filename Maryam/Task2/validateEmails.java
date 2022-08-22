@@ -3,7 +3,8 @@ package Task2;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-public class validateEmails {
+public class validateEmails extends emailCollection {
+	
 	public static String validateEmail(ArrayList<String> email) { 
 		String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+ //got regex from geeksforgeeks website
                 "[a-zA-Z0-9_+&*-]+)*@" +
@@ -13,13 +14,11 @@ public class validateEmails {
 		for (Object item : email) {
 			boolean matches=false;
 			String itemString=item.toString();
-			if (itemString == null)
-				continue;
 			if (pat.matcher(itemString).matches()) {
 				matches=true;
 			}
-			System.out.println(
-					itemString +" matches is " +matches);
+
+			System.out.printf("%25s is a %6s email \n", itemString, matches);
 				
 		}
 		return null;

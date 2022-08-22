@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class emailCollection {
-	static ArrayList<String> emailCollection = new ArrayList<String>(Arrays.asList(
+	static ArrayList<String> emailCollectionList = new ArrayList<String>(Arrays.asList(
 			"mgadiali@gmail.com",
 			"rose@outlook.com",
 			"alice@hotmail.com",
 			"lucy"));
 	
 	public static ArrayList<String> getEmailCollection() {
-		return  emailCollection;
+		return emailCollectionList;
 	}
 	
 	public static ArrayList<String> addToEmailCollection(String email) {
-		emailCollection.add(email);
-		return emailCollection;
+		emailCollectionList.add(email);
+		return emailCollectionList;
 	}
 }
